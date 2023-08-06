@@ -1,0 +1,36 @@
+//Write a program to print the below pattern using nested for loop.
+
+/*
+
+OUTPUT ;
+
+ABCDE
+ABCDE
+ABCDE
+ABCDE
+ABCDE
+
+*/
+
+#include<stdio.h>
+#include<conio.h>
+
+void main(){
+
+int i,n;
+
+for(i='A';i<='E';i++)
+
+{
+
+     for(n='A';n<='E';n++)
+{      
+     printf("%c",n);
+}
+
+printf("\n");
+}
+
+getch();
+
+}
