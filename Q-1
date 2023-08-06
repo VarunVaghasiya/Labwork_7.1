@@ -1,0 +1,32 @@
+//Write a program to print the below pattern using nested for loop.
+
+/*
+output ;
+11111
+22222
+33333
+44444
+55555
+*/
+
+#include<stdio.h>
+#include<conio.h>
+
+void main(){
+
+int p,q;
+
+for(q=1;q<=5;q++)
+
+{
+     for(p=1;p<=5;p++)
+{
+  printf("%d",q);
+}
+
+  printf("\n");
+}
+
+getch();
+
+}
